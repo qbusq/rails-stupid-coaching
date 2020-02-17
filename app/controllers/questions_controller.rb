@@ -15,6 +15,6 @@ class QuestionsController < ApplicationController
 
   def answer
     @answer = poss_answer(params[:question])
-    return @answer
+    @answer
   end
 end
